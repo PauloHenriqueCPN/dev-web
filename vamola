@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Vamo La</title>
+        <meta charset="UTF=8">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div>
+            <h2>Primeira Div</h2>
+            <p>Um <span>texto</span>.</p>
+        </div>
+        <div>
+            <h2>Segunda Div</h2>
+            <p><input type='text'></p>
+            <p><button>Um botão</button></p>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+css
+div{
+    border: solid black lpx;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
