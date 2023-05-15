@@ -1,0 +1,64 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percorrendo Arrays</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=oDNTHvjn5hs" 
+               targed="_blank"
+        >Vetores</a></li>
+        <li>Javascript e DOM</li>
+        <li>Funcões</li>
+        <li>Estruturas de Decisão</li>
+        <li>Estruturas de Repetição</li>
+        <li>Arrays</li>
+    </ul>
+    <div>
+        <div id="colorida"></div>
+        <input type="color" id="input_cor">
+    </div>
+</body>
+</html>
+
+JS
+
+const div_colorida = document.getElementById('colorida');
+const input_cor = document.getElementById('input_cor');
+const mu_primeiro_array = [1,2,3,4,'casa'];
+
+div_colorida.style.height = '1em';
+div_colorida.style.background = 'black';
+
+  function mudar_cor(e){
+    div_colorida.style.backgroundColor = e.target.value;        
+    console.log(e);
+  }
+
+  input_cor.onchange = mudar_cor;
+
+  /*imprimir array*/
+  let contador = 0;
+  while (contador < meu_primeiro_array.length){
+    console.log(meu_primeiro_array[contador]);
+    contador++;
+  }
+
+  for(let i = 0; i < meu_primeiro_array.length; i++){
+    console.log('con for', meu_primeiro_array[i]);
+  }
+
+  meu_primeiro_array.forEach( (ele, indice) => {
+    console.log(ele, indice);
+  }
+  );
+
+  for (const ele of meu_primeiro_array){
+     console.log('for of', ele);
+  }
