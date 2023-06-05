@@ -1,0 +1,15 @@
+#Python
+Referência: https://www.python.org/
+Relação: Python é uma linguagem de programação muito querida pelos programadores, e ela será utilizada para aplicar na prática o que aprendemos nessa matéria.
+
+#sqlitebrowser
+Referência: https://sqlitebrowser.org/
+Relação: Sqlitebrowser será nossa principal ferramenta de baco de dados na matéria, ele permite ao usuário manipular banco de dados.
+
+#git
+Referência: https://git-scm.com/
+Relação: Git é um software local que permite aos desenvolvedores salvar snapshots de seus projetos ao longo do tempo, e vai ser ótimo para resgatar um código.
+
+#VScode
+Referência: https://code.visualstudio.com/
+Relação: Visual Studio Code é um software criado para edição e criação de códigos. Iremos utilizar ele para implementar o que aprendemos na sala de aula.
